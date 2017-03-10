@@ -1,0 +1,64 @@
+/* Section Reservation */
+.section-form-reservation {
+  background: url(../images/bg.jpg) no-repeat center bottom fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.booking-form-group {
+	padding: 10px 0;
+}
+
+.booking-form-group label {
+	width: 250px;
+	padding-left: 0px;
+    padding-top: 5px;
+    color: #252525;
+    font-size: 14px;
+    display: inline-block;
+    text-align: left;
+}
+
+.availability-form-reserv .awe-calendar-wrapper .awe-calendar {
+	color: #252525 !important;
+	border: 2px solid #252525;
+	width: 220px;
+}
+
+select:required:invalid {
+color: #999;
+}
+option[value=””][disabled] {
+display: none;
+}
+option {
+color: #000;
+}
+
+.availability-form-reserv .awe-calendar-wrapper i {
+    color: #252525;
+}
+
+.reserv-input {
+	padding: 0 30px 0 10px;
+    background-color: transparent !important;
+    color: #252525 !important;
+    width: 220px;
+    border: 2px solid #252525 !important;
+    height: 40px;
+    line-height: 36px;
+}
+
+.reserv-comments {
+	background-color: transparent !important;
+	border: 2px solid #252525 !important;
+	color: #252525 !important;
+	padding: 0 30px 0 10px;
+	width: 220px;
+}
+
+textarea::-webkit-input-placeholder {
+	padding-top: 10px;
+	color: #252525 !important;
+}
